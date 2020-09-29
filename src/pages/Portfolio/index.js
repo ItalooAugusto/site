@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from '../Menu';
 
-export default function SobreNos() {
+export default function Portfolio() {
 return (
 
     <div className="container-login">

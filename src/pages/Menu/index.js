@@ -1,4 +1,6 @@
 import React from 'react';
+import './styles.css';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
 return (
@@ -6,9 +8,16 @@ return (
     <div className="container-home">
      <>
         <ul>    
-            <li>Home</li>
-            <li>Sobre Nós</li>
-            <li>Contatos</li>
+            <li>
+                <Link to="/" >Home</Link>
+            </li>
+            <li>
+                <Link to="portfolio" >Portfolio</Link>
+            </li>
+            <li>
+                <Link to="contatos" >Contatos</Link>
+            </li>
+            
         </ul>
         
         

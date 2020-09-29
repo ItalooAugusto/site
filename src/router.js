@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
-import SobreNos from './pages/SobreNos';
+import SobreNos from './pages/Portfolio';
 import Contatos from './pages/Contatos';
+import Portfolio from './pages/Portfolio';
 
 export default function Routes() {
   return (
@@ -11,7 +12,7 @@ export default function Routes() {
     <Switch>
 
           <Route path="/" exact component={Home} />
-          <Route path="/sobrenos" component={SobreNos} />
+          <Route path="/portfolio" component={Portfolio} />
           <Route path="/contatos" component={Contatos} />
 
         </Switch>
