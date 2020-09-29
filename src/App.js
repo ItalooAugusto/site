@@ -1,13 +1,10 @@
 import React from 'react';
+import Routes from './router.js';
+
 
 export default function App() {
   return (
-    <>
-    <style>
-      background-color: white;
-    </style>
-      <h1> Vamos testando os arquivos. </h1>
-
-    </>
+    <Routes />
+    
   );
 }
