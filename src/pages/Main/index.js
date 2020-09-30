@@ -42,7 +42,7 @@ export default function Main() {
 
       </div>
 
-
+<hr></hr>
 
     </section>
 
