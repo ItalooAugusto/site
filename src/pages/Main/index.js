@@ -1,4 +1,5 @@
 import React from 'react';
+import Img1 from '../../assets/img1.webp';
 import './styles.css';
 
 
@@ -7,7 +8,7 @@ export default function Main() {
     <section>
 
       <div className="galeria">
-        <img src="" alt="" className="imagens" />
+        <img src={Img1} alt="" className="imagens" />
         <h3>Carro 1</h3>
         <p>Valor: R$</p>
 
