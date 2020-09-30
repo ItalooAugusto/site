@@ -10,9 +10,9 @@ export default function Footer() {
     <footer>
     <div className="testando">
         <ul>
-        <li><a href=""> Contato</a></li>
-        <li><a href=""> Termos de serviço </a></li>
-        <li><a href=""> Política de privacidade </a></li>
+        <li> Contato</li>
+        <li> Termos de serviço </li>
+        <li>Política de privacidade</li>
         <li className="redes-sociais"><FaFacebook size="25" color="blue" /> <FaInstagram size="25" color="fuchsia" /> <FaWhatsapp size="25" color="green" /></li>
         </ul>
     </div>
