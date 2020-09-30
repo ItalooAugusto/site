@@ -13,7 +13,7 @@ export default function Footer() {
         <li><a href=""> Contato</a></li>
         <li><a href=""> Termos de serviço </a></li>
         <li><a href=""> Política de privacidade </a></li>
-        <li><FaFacebook size="25" color="blue" /> <FaInstagram size="25" color="fuchsia" /> <FaWhatsapp size="25" color="green" /></li>
+        <li className="redes-sociais"><FaFacebook size="25" color="blue" /> <FaInstagram size="25" color="fuchsia" /> <FaWhatsapp size="25" color="green" /></li>
         </ul>
     </div>
     </footer>

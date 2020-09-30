@@ -18,3 +18,7 @@ li {
 
     padding-top: 8px;
 }
+
+.redes-sociais:hover {
+    cursor: pointer;
+}
